@@ -1,8 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/01-note//busybox/syslogd/busyboxsyslog/","tags":"gardenEntry"}
+{"dg-publish":true,"permalink":"/01-note//busybox/syslogd/busyboxsyslog/"}
 ---
 
 # busybox-syslog修改帮助信息
+
 > 本文使用的busybox版本：1.22.1
 
 busybox syslogd的帮助信息生成于 `include\usage.h`，但不能直接修改 `usage.h` 文件，原因在 `usage.h` 开头也有说明：
